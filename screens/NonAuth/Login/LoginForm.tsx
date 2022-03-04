@@ -8,7 +8,7 @@ import { useNavigation } from "@react-navigation/native";
 import { NativeElementButton } from "../../../components/Button";
 import { login } from "../../../repository/UserRepository";
 import { AlertMessage } from "../../../utils/AlertMessage";
-import { useState } from "react"; NativeElementButton
+import { useState } from "react";
 
 interface IProps {
     setLoading: (value: boolean) => void;
