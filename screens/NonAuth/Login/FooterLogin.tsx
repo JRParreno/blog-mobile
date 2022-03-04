@@ -1,11 +1,16 @@
+import { useNavigation } from "@react-navigation/native";
 import * as React from "react";
 import { StyleSheet, TouchableOpacity, View, Text } from "react-native";
 import { commonColor } from "../../../constants/Colors";
 
 export default function FooterLogin() {
+    const navigation = useNavigation();
+
     return (
         <View style={styles.container}>
-            <TouchableOpacity>
+            <TouchableOpacity
+                onPress={() => navigation.navigate("Landing")}
+            >
                 <Text style={styles.textStyle}>Create your Account</Text>
             </TouchableOpacity>
         </View>
