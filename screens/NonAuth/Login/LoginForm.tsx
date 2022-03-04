@@ -5,10 +5,10 @@ import { Formik } from 'formik';
 import TextField from "../../../components/TextInput/TextField";
 import { commonColor } from "../../../constants/Colors";
 import { useNavigation } from "@react-navigation/native";
-import NativeElementButton from "../../../components/Button/NativeElementButton";
+import { NativeElementButton } from "../../../components/Button";
 import { login } from "../../../repository/UserRepository";
 import { AlertMessage } from "../../../utils/AlertMessage";
-import { useState } from "react";
+import { useState } from "react"; NativeElementButton
 
 interface IProps {
     setLoading: (value: boolean) => void;
