@@ -7,7 +7,7 @@ export const commonColor = {
   main: '#F66B5E',
   secondary: '#015193',
   white: '#fff',
-  black: '#343434',
+  black: '#191620',
   transparent: '#0000',
   lightBlue: '#88B4FF',
   lightBG: '#F9F9F9',

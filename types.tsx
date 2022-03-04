@@ -21,6 +21,7 @@ export type RootStackParamList = {
 };
 
 export type NonAuthParamList = {
+  Landing: undefined;
   Login: undefined;
 };
 
