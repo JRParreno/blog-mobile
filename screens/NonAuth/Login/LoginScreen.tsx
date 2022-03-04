@@ -1,10 +1,12 @@
 import * as React from "react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ViewWithLoading from "../../../components/ViewWithLoading";
-import { StyleSheet, View } from "react-native";
+import { Alert, StyleSheet, View } from "react-native";
 import HeaderLottie from "./HeaderLottie";
 import LoginForm from "./LoginForm";
 import FooterLogin from "./FooterLogin";
+import { NativeElementButton } from "../../../components/Button";
+import axios from "axios";
 
 export default function LoginScreen() {
 
